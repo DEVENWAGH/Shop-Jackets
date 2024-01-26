@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+main {
+
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    font-size: 20px;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+nav i {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+#center {
+    width: 100%;
+    padding: 10px 80px 0 80px;
+}
+
+#center h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+#center-mid {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#center-mid p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right {
+    width: 20%;
+}
+
+.wagh {
+    font-size: 20px;
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wagh a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 20px;
+}
+
+.wagh i {
+    font-weight: 500;
+    font-style: 20px;
+    opacity: 0;
+}
+
+.wagh:hover i {
+    opacity: 1;
+}
+
+.wagh:hover a {
+    text-decoration: underline;
+}
+
+.wagh:hover {
+    background-color: #0000001e;
+}
+
+#bottom {
+    height: 49.9%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1660866837676-7211e74f1d78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    object-fit: cover;
+    background-position: 0 45%;
+}
